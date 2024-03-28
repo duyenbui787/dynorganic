@@ -1,0 +1,180 @@
+#login-page {
+    padding: 100px 0 50px;
+}
+
+.section-head h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px!important;
+}
+
+.login-inner {
+    background: #F7F7F7;
+    padding: 40px 0;
+}
+
+.login-inner h1.title {
+    font-size: 34px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 40px!important;
+}
+
+.login-inner form .form-row {
+    display: block!important;
+    margin: 0;
+}
+
+.login-inner form .form-row label {
+    display: block!important;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.login-inner form .form-row {
+    margin-bottom: 30px;
+}
+
+.login-inner form .form-row input:not([type="checkbox"]) {
+    width: 100%;
+    height: 55px;
+    padding: 11px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 30%);
+}
+
+.login-inner form .form-row label.rememberme {
+    margin-top: 10px;
+}
+
+.login-inner form .form-row .btn-login,
+.login-inner form .form-row .btn-register {
+    display: inline-block;
+    width: auto!important;
+    padding: 16px 30px!important;
+    height: 55px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: var(--bg-color-green);
+    outline: none;
+    border: none;
+    border-radius: 0!important;
+}
+
+label#password a {
+    text-align: right;
+}
+
+.btn-connect-wp {
+    text-align: center;
+}
+
+.btn-connect-wp .btn-connect-inner {
+    display: inline-grid;
+    border-radius: 10px;
+}
+
+.btn-connect-wp .continue-with-facebook {
+    background: #1877F2;
+}
+
+.btn-connect-wp .continue-with-google {
+    background: #DC4E41;
+}
+
+.btn-connect-wp .btn-connect-inner i {
+    font-size: 30px;
+}
+
+.btn-connect-wp .btn-connect-inner span {
+    vertical-align: 3px;
+}
+
+.btn-connect-wp .btn-connect-inner span strong {
+    display: inline-block;
+    padding: 0!important;
+}
+
+.btn-connect-wp .btn-connect .btn-connect-inner a {
+    display: block;
+    width: 238px;
+    color: #fff;
+    padding: 8px 6px;
+    letter-spacing: -0.5px;
+    border-radius: 10px;
+}
+
+.btn-connect-wp .btn-connect .btn-connect-inner a span {
+    margin-left: 10px;
+}
+
+.btn-connect-wp p {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.btn-connect-wp p span {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn-connect-wp p span::before {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: -60px;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background: #424242;
+}
+
+.btn-connect-wp p span::after {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: -60px;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background: #424242;
+}
+
+.continue-with-google {
+    margin-top: 20px;
+}
+
+.continue-with-google a i {
+    margin-left: -22px;
+}
+
+
+/* ===account-register==== */
+
+#account-register form .form-row.validate-required {
+    margin-bottom: 0;
+}
+
+#account-register form .form-row.validate-required label {
+    display: inline-block!important;
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+
+#account-register form p {
+    font-size: 12px;
+    margin: 20px 0 40px;
+}
+
+#account-register form .form-row.btn-register-wp {
+    margin-bottom: 0;
+}

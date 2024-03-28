@@ -1,0 +1,19 @@
+#brand-introduce-wp {
+    background: #E5E5E5;
+    padding: 47px 0;
+}
+
+.brand-introduce {
+    width: 770px;
+    padding: 0 15px;
+}
+
+.brand-introduce img {
+    display: inline-block;
+    width: 446px;
+    height: 415px;
+}
+
+.img-brand-introduce {
+    text-align: center;
+}

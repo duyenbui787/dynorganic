@@ -1,0 +1,338 @@
+#top-banner {
+    position: relative;
+    color: #fff;
+    font-size: 11px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+#top-banner img {
+    height: 100%;
+}
+
+#top-banner .banner-text {
+    position: absolute;
+    color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#top-banner p {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#top-banner .login-wp a {
+    color: #fff;
+    font-size: 12px;
+    padding: 7px 0 7px 5px;
+}
+
+
+/* HEADER */
+
+#header {
+    background: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    box-shadow: 0 6px 6px 0 rgb(0 0 0 / 5%);
+    z-index: 2;
+}
+
+#header .row {
+    height: 65px;
+    margin: 0;
+}
+
+#header-logo {
+    max-width: 285px;
+}
+
+#header-logo a img {
+    height: 65px;
+    width: auto;
+}
+
+#header #main-menu-wp ul.main-menu {
+    height: 65px;
+    line-height: 65px;
+}
+
+#header #main-menu-wp ul.main-menu {
+    justify-content: center;
+}
+
+#header #main-menu-wp ul.main-menu li {
+    position: relative;
+}
+
+#header #main-menu-wp ul.main-menu>li>a {
+    display: block;
+    font-size: 17px;
+    color: var(--text-color);
+    font-weight: 600;
+    padding: 0 15px;
+}
+
+#header #main-menu-wp ul.main-menu>li>a:first-child {
+    padding-left: 0;
+}
+
+#header #main-menu-wp ul.main-menu>li:hover>a {
+    color: var(--text-green);
+}
+
+#header #main-menu-wp ul.main-menu li.active a {
+    color: var(--text-green);
+    font-weight: 700;
+}
+
+#header #main-menu-wp ul.main-menu li:hover ul.sub-menu {
+    display: block;
+}
+
+#header #main-menu-wp ul.main-menu li ul.sub-menu {
+    display: none;
+    position: absolute;
+    top: 65px;
+    width: 240px;
+    padding: 10px 20px;
+    background: #fff;
+    box-shadow: 0 6px 6px 0 rgb(0 0 0 / 8%);
+}
+
+#header #main-menu-wp ul.main-menu li ul.sub-menu li a {
+    display: block;
+    font-size: 15px;
+    color: #333;
+    line-height: normal;
+    padding: 10px 0px;
+}
+
+#header #main-menu-wp ul.main-menu ul.sub-menu>li>a:hover {
+    color: var(--text-green);
+}
+
+
+/* ====header-right==== */
+
+#header #header-right-wp ul {
+    justify-content: flex-end;
+}
+
+li.cart-wp #cart {
+    position: relative;
+}
+
+li.cart-wp #cart .num {
+    display: inline-flex;
+    position: absolute;
+    right: -10px;
+    top: 7px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #EEADC8;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+}
+
+#header #header-right-wp ul#header-right,
+#header #header-right-wp ul#nav-right {
+    padding: 13px 0;
+}
+
+#header #header-right-wp ul#header-right li form#search {
+    position: relative
+}
+
+#header #header-right-wp ul#header-right li form#search input {
+    font-family: 'Open Sans', sans-serif!important;
+    width: 195px;
+    padding: 5px 0;
+    font-size: 10px;
+    font-style: italic;
+    padding: 11px 40px 10px 10px;
+    border: 1px solid #C5BABA;
+}
+
+#header #header-right-wp ul#header-right li form#search input::placeholder {
+    color: rgba(0, 0, 0, 60%);
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif!important;
+}
+
+#header #header-right-wp ul#header-right li form#search button {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 0%;
+    padding: 0;
+}
+
+li.cart-wp {
+    position: relative;
+}
+
+li.cart-wp #cart {
+    padding: 6px 0 6px 12px;
+}
+
+li.cart-wp #empty-cart-dropdown {
+    width: 260px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: 52px;
+    color: aquamarine;
+    font-size: 15px;
+    padding: 20px 10px;
+    background: #fff;
+    color: #333;
+    box-shadow: 0 6px 6px 0 rgb(0 0 0 / 8%);
+}
+
+li.cart-wp #cart-dropdown {
+    position: absolute;
+    right: 0;
+    top: 38px;
+    width: 350px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 6px 6px 0 rgb(0 0 0 / 8%);
+    display: none;
+    z-index: 5;
+    min-height: 100px;
+}
+
+li.cart-wp:hover #cart-dropdown {
+    display: block;
+}
+
+li.cart-wp #cart-dropdown ul li {
+    display: flex;
+    align-items: center;
+}
+
+li.cart-wp #cart-dropdown ul li a.thumb {
+    width: 18%;
+}
+
+li.cart-wp #cart-dropdown ul li a.thumb img {
+    height: 70px;
+}
+
+li.cart-wp #cart-dropdown ul li .info {
+    margin-left: 20px;
+}
+
+li.cart-wp #cart-dropdown ul li .info a.product-name {
+    display: block;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 50%);
+}
+
+li.cart-wp #cart-dropdown ul li .info .price span {
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+li.cart-wp #cart-dropdown .total-price-wp {
+    padding: 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 10%);
+    border-bottom: 1px solid rgba(0, 0, 0, 10%);
+}
+
+li.cart-wp #cart-dropdown .total-price-wp p {
+    color: rgba(0, 0, 0, 50%);
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+li.cart-wp #cart-dropdown .total-price-wp p span {
+    color: #000;
+}
+
+li.cart-wp #cart-dropdown .cart-button a.button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background: var( --bg-color-green);
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+li.cart-wp #cart-dropdown .cart-button a.button:hover {
+    background: var(--bg-color-green-hover);
+}
+
+ul#nav-right {
+    display: flex;
+    align-items: center;
+}
+
+
+/*  */
+
+ul#nav-right li.search-res {
+    position: relative;
+}
+
+ul#nav-right li.search-res button {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+ul#nav-right li.search-res .search-wp {
+    position: absolute;
+    background: rgb(237 236 236 / 70%);
+    padding: 15px 20px;
+    right: 0;
+    box-shadow: 0 0 5px 0 rgba(102, 102, 102, 0.4);
+    display: none;
+    border-radius: 3px;
+    z-index: 2;
+}
+
+ul#nav-right li.search-res:hover .search-wp {
+    display: block;
+}
+
+ul#nav-right li.search-res .search-wp form#search {
+    position: relative;
+}
+
+ul#nav-right li.search-res .search-wp form#search input {
+    width: 220px;
+    height: 38px;
+    border: none;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+ul#nav-right li.search-res .search-wp form#search button {
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -4px;
+    color: #202020;
+    font-size: 16px;
+}
+
+#icon-delete,
+.menu-responsive {
+    display: none;
+}

@@ -1,0 +1,124 @@
+#post-page img {
+    width: auto;
+}
+
+#post-wp {
+    padding: 50px 0;
+}
+
+#list-post-wp .post-item {
+    background: #f2f2f2;
+    margin-bottom: 30px;
+}
+
+.post-thumb {
+    float: left;
+    position: relative;
+}
+
+.post-thumb a {
+    max-width: 310px;
+    display: block;
+}
+
+.post-text {
+    overflow: hidden;
+    padding: 12px 20px;
+}
+
+#list-post-wp .post-item .post-text {
+    color: #000;
+}
+
+#list-post-wp .post-item .post-text h3 a {
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+}
+
+#list-post-wp .post-item .post-text h3 a:hover {
+    color: var(--text-green);
+}
+
+#list-post-wp .post-item .post-text img {
+    width: 17px;
+    height: 17px;
+}
+
+#list-post-wp .post-item .post-text .author span,
+#list-post-wp .post-item .post-text .post-created span {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+#list-post-wp .post-item .post-text p.post-excerpt {
+    font-size: 14px;
+    line-height: 120%;
+    margin: 15px 0;
+}
+
+#list-post-wp .post-item .post-text a.read-more {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-green);
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+#list-post-wp .post-item .post-text a.read-more:hover {
+    color: var(--text-green-hover);
+}
+
+#list-post-wp .post-item .post-text .read-more-wp {
+    position: relative;
+}
+
+#list-post-wp .post-item .post-text .read-more-wp .icon-arrow {
+    position: absolute;
+    left: 70px;
+    color: transparent;
+    transition: all 0.2s;
+}
+
+#list-post-wp .post-item .post-text .read-more-wp:hover .icon-arrow {
+    position: absolute;
+    left: 90px;
+    color: var(--text-green-hover);
+}
+
+.sidebar,
+.main-content {
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+}
+
+.sidebar {
+    position: relative;
+    border-left: 1px solid #ececec;
+}
+
+.sidebar #post-sidebar {
+    top: 100px;
+    position: sticky;
+}
+
+.sidebar .section-head h4 {
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.sidebar .section-content ul li a {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    line-height: 120%;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 30%);
+}
+
+.sidebar .section-content ul li:last-child a {
+    border-bottom: 0;
+}

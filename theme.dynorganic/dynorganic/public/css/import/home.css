@@ -1,0 +1,238 @@
+.row {
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+
+
+/* MAIN BANNER */
+
+#main-banner .carousel-main-banner .owl-prev {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 94px !important;
+    color: #fff!important;
+    opacity: unset!important;
+}
+
+#main-banner .carousel-main-banner .owl-prev:hover,
+#main-banner .carousel-main-banner .owl-next:hover {
+    background: none!important;
+}
+
+#main-banner .carousel-main-banner .owl-next {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 94px !important;
+    color: #fff!important;
+    opacity: unset!important;
+}
+
+
+/* HOME CARD */
+
+#home-card {
+    padding: 50px 0;
+}
+
+#home-card .list-card-item .card-item:last-child {
+    margin-right: 0;
+}
+
+#home-card ul#list-card li {
+    position: relative;
+    flex-basis: 370px;
+    margin-right: 30px;
+}
+
+#home-card ul#list-card li:last-child {
+    margin-right: 0;
+}
+
+#home-card ul#list-card li a.card-text {
+    display: block;
+    position: absolute;
+    bottom: 37px;
+    left: 50%;
+    width: 260px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 70%);
+    background: rgba(255, 255, 255, 70%);
+    padding: 15px 10px;
+    transform: translateX(-50%);
+}
+
+#home-card ul#list-card li a.card-text:hover {
+    color: #000;
+}
+
+
+/* HOT-PRODUCT */
+
+#hot-product {
+    padding: 50px 0;
+    background: #F8F4F2;
+}
+
+.carousel-hot-product .item {
+    padding: 10px!important;
+}
+
+.owl-item {
+    margin-right: 0!important;
+}
+
+.carousel-hot-product .item .thumb {
+    padding-top: 20px;
+    background: #fff;
+}
+
+.carousel-hot-product .item .info-product {
+    padding: 15px 10px;
+}
+
+.carousel-hot-product .item .info-product span.price {
+    display: block;
+    color: #077E69;
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+
+/* COMBO-DEAL */
+
+#combo-deal {
+    padding: 50px 0;
+}
+
+#combo-deal .section-detail .list-item {
+    margin-bottom: 30px;
+}
+
+#combo-deal .section-detail .button {
+    text-align: center;
+}
+
+#combo-deal .section-detail .button a {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    color: var( --text-white);
+    background: var( --bg-color-green);
+    text-transform: uppercase;
+    padding: 16px 20px;
+    margin-top: 25px;
+}
+
+#combo-deal .section-detail .button a:hover {
+    background: var(--bg-color-green-hover);
+}
+
+
+/* ABOUT US */
+
+#about-us {
+    background: #F8F4F2;
+    padding: 50px;
+}
+
+#about-us .col-left {
+    padding: 15px;
+}
+
+#about-us .col-left p {
+    margin-bottom: 20px;
+    line-height: 120%;
+}
+
+#about-us .col-left p:last-child {
+    margin-bottom: 0;
+}
+
+#about-us .col-left h4 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 20px!important;
+}
+
+#about-us .col-right p {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0!important;
+}
+
+#about-us .col-right p img {
+    height: auto;
+    width: 100%;
+}
+
+
+/* STANDARDS */
+
+#standards p {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+#standards p img {
+    height: inherit;
+}
+
+
+/* LIST BLOG */
+
+#list-blog-wp {
+    padding: 50px 0;
+}
+
+.list-blog {
+    display: flex;
+    justify-content: space-between!important;
+}
+
+.blog-item {
+    flex-basis: 270px!important;
+}
+
+.blog-item.col-md-3:last-child {
+    margin-right: 0!important;
+}
+
+.blog-item a.post-thumb {
+    display: block;
+    padding-bottom: 20px;
+    float: none!important;
+}
+
+.blog-item a.post-content {
+    display: block;
+    color: #000;
+    line-height: 120%;
+    letter-spacing: -0.5px;
+    padding: 16px 0;
+    position: relative;
+}
+
+.blog-item a.post-content:hover {
+    color: var(--text-green);
+}
+
+.blog-item a.post-content::before {
+    content: "";
+    height: 6px;
+    width: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+}

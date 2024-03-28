@@ -1,0 +1,51 @@
+#notification-wp {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#notification {
+    display: block;
+    text-align: center;
+    width: 770px;
+    padding: 25px;
+    background: #EDEEE0;
+    border-radius: 50px;
+}
+
+#notification p {
+    font-size: 34px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+#notification span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.continue-shopping {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.continue-shopping a {
+    display: inline-block;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: var(--bg-color-green);
+    padding: 16px 15px;
+    width: 278px;
+    height: 55px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.continue-shopping a:hover {
+    color: #fff;
+    background: var(--bg-color-green-hover);
+}
